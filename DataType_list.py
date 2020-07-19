@@ -29,4 +29,12 @@ print(List)
 #List.remove(2) # removes element at index 2
 #num.sort(reverse=True) # Sorts in desc if reverse =True
 #print(num.count(20)) # returns number of times 20 appeared in list
-print(num.pop(2)) # removes element at given index
+#print(num.pop(2)) # removes element at given index
+
+
+#List comprehension
+
+squares =[]
+for x in range(10):
+    squares.append(x**2)
+print(squares)
